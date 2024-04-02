@@ -1,0 +1,41 @@
+#--------------------------------------#
+
+# Ejemplo 1
+# AND
+
+# Por lo que estoy entendiendo del AND es que si le das 2 datos iguales, como True & True, va a devolver True. Lo mismo ocurre con False, pero si le das datos diferentes, va a devolver False.
+
+Resultado = True & True # Devolver True
+Resultado2 = False & True # Devolver False
+Resultado3 = True & False # Devolver False
+Resultado4 = False & False # Devolver False
+
+#--------------------------------------#
+
+#--------------------------------------#
+
+# Ejemplo 2
+# OR
+
+# Por lo que entendí con ChatGPT y el curso, es que si los dos datos son iguales, van a aparecer. Si los dos son True, dará True y lo mismo con False. Al principio no entendía por qué, aunque False esté primero, no pone False, pero ya vi que aunque tenga infinitos False, si tiene solo un True, va a ser True.
+
+Resultado5 = True | True # Devolver True
+Resultado6 = False | True # Devolver True
+Resultado7 = True | False # Devolver True
+Resultado8 = False | False # Devolver False
+
+#--------------------------------------#
+
+#--------------------------------------#
+
+# Ejemplo 3
+# NOT
+
+# Este es fácil, porque si le pones not True va a aparecer False, ya que le das la orden de que el True sea False. Y lo mismo con False.
+
+Resultado9 = not True # Devolver False
+Resultado10 = not False # Devolver True
+
+#--------------------------------------#
+
+print(Resultado9)
